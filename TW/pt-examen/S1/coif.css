@@ -1,0 +1,79 @@
+body {
+    background-color: purple;
+}
+
+div {
+  text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 55px);
+    grid-template-rows: repeat(4, 80px);
+    gap: 5px;
+}
+
+.container div {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: Gold;
+    border: DarkGoldenrod dotted 8px;
+}
+
+#top {
+    grid-row: 1/2;
+    grid-column: 1/5;
+}
+
+#middle {
+    grid-row: 2/4;
+    grid-column: 1/5;
+    display: flex;
+    justify-content: space-around;
+}
+
+#st {
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+#dr {
+    grid-row: 4/5;
+    grid-column: 4/5;
+}
+
+#spate {
+    grid-row: 4/5;
+    grid-column: 2/4;
+    background-color: DarkGoldenrod;
+    border: none;
+    height: 20px;
+}
+
+#cerc {
+    aspect-ratio: 1 / 1;
+    width: 40px;          
+    border-radius: 50%;
+    background-color: antiquewhite;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.45s ease;
+}
+
+#cerc:active {
+    background-color: red; 
+    color: red;          
+    transform: scale(0.33);   
+}
+
+@media (min-width: 330px) and (max-width: 620px) {
+    .container {
+        display: block;
+    }
+    #cerc {
+        transform: scaleY(0.5); 
+        width: auto; 
+    }
+}

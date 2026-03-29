@@ -1,0 +1,28 @@
+#bigball {
+    border-radius: 100%;
+    background-color: black;
+    width: 200px;      
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#bigball #miniball {
+    border-radius: 100%;
+    background-color: white;
+    color: black;
+    width: 100px;      
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+#answer {
+    margin-top: 20px;      
+    font-size: 18px;
+    font-weight: bold;
+}

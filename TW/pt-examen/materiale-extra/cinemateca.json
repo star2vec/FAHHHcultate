@@ -1,0 +1,32 @@
+{
+  "cinemateca": [
+    {
+      "titlu": "Inception",
+      "titluLang": "ro",
+      "gen": "Sci-Fi",
+      "regizor": "Christopher Nolan",
+      "an_lansare": 2010,
+      "scenarist": "Christopher Nolan",
+      "producator": "Emma Thomas",
+      "actori": [
+        { "nume": "Leonardo DiCaprio", "rol": "principal" },
+        { "nume": "Joseph Gordon-Levitt", "rol": "secundar" }
+      ],
+      "scor": 8.8
+    },
+    {
+      "titlu": "La La Land",
+      "titluLang": "ro",
+      "gen": "Musical/Romantic",
+      "regizor": "Damien Chazelle",
+      "an_lansare": 2016,
+      "scenarist": "Damien Chazelle",
+      "producator": "Fred Berger",
+      "actori": [
+        { "nume": "Ryan Gosling", "rol": "principal" },
+        { "nume": "Emma Stone", "rol": "secundar" }
+      ],
+      "scor": 8.0
+    }
+  ]
+}

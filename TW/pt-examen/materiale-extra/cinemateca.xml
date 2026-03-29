@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cinemateca>
+  
+  <film>
+    <titlu lang="ro">Inception</titlu>
+    <gen>Sci-Fi</gen>
+    <regizor>Christopher Nolan</regizor>
+    <an_lansare>2010</an_lansare>
+    <scenarist>Christopher Nolan</scenarist>
+    <producator>Emma Thomas</producator>
+    <actori>
+      <actor rol="principal">Leonardo DiCaprio</actor>
+      <actor rol="secundar">Joseph Gordon-Levitt</actor>
+    </actori>
+    <scor>8.8</scor>
+  </film>
+
+  <film>
+    <titlu lang="ro">La La Land</titlu>
+    <gen>Musical/Romantic</gen>
+    <regizor>Damien Chazelle</regizor>
+    <an_lansare>2016</an_lansare>
+    <scenarist>Damien Chazelle</scenarist>
+    <producator>Fred Berger</producator>
+    <actori>
+      <actor rol="principal">Ryan Gosling</actor>
+      <actor rol="secundar">Emma Stone</actor>
+    </actori>
+    <scor>8.0</scor>
+  </film>
+
+</cinemateca>

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Formular pentru intrarea în Sistemul Solar</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css" type="text/css">
+      <script type="text/javascript" src="form.js"></script>
+   </head>
+   <body>
+     <h3>FORMULAR PENTRU INTRAREA ÎN SISTEMUL SOLAR</h3>
+      
+     <div id="container"> 
+       <form method="post" action="Earth" target="_self">
+          <fieldset class="personal-data">
+            <legend>Date personale extraterestre</legend>
+
+            <div class="field">
+              <label for="name">Nume complet:</label>
+              <input type="text" id="name" name="name" minlength="3" maxlength="30" required>
+            </div>
+
+            <div class="field">
+              <label for="intergalactic-id">ID unic:</label>
+              <input
+                type="text"
+                id="intergalactic-id"
+                name="intergalactic_id"
+                minlength="8"
+                maxlength="20"
+                pattern="[A-Z0-9]+"
+                required
+              >
+            </div>
+
+            <div class="field">
+              <label for="race">Rasă:</label>
+              <select id="race" name="race" required>
+                <option value="">--Alege o rasă--</option>
+                <option value="Autobot">Autobot</option>
+                <option value="Daimons">Daimons</option>
+                <option value="Deep Ones">Deep Ones</option>
+                <option value="Experiment">Experiment</option>
+                <option value="Goa'uld">Goa'uld</option>
+                <option value="Hutt">Hutt</option>
+                <option value="Jawa">Jawa</option>
+                <option value="Kryptonian">Kryptonian</option>
+                <option value="Mandalorians">Mandalorians</option>
+                <option value="Martian">Martian</option>
+                <option value="Protoss">Protoss</option>
+                <option value="Rodian">Rodian</option>
+                <option value="Romulan">Romulan</option>
+                <option value="Tleilaxu">Tleilaxu</option>
+                <option value="Vogon">Vogon</option>
+                <option value="Wookie">Wookie</option>
+                <option value="Xenu">Xenu</option>
+                <option value="Yeti">Yeti</option>
+                <option value="Zerg">Zerg</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="birthdate">Data nasterii:</label>
+              <input
+                type="date"
+                id="birthdate"
+                name="birthdate"
+                min="1800-01-01"
+                max="2024-05-13"
+                required
+              >
+            </div>
+            <div class="field">
+              <label for="credit">
+                Credit social:
+                <span id="credit-value">0</span>
+              </label>
+
+              <input
+                type="range"
+                id="credit"
+                name="credit"
+                min="0"
+                max="2000"
+                step="50"
+                value="0"
+                required
+              >
+            </div>
+            <div class="field">
+              <label for="photo">Fotografie:</label>
+              <input
+                type="file"
+                id="photo"
+                name="photo"
+                accept=".jpg,.jpeg,.png"
+                required
+              >
+            </div>
+          </fieldset>
+          <fieldset class="personal-data">
+            <legend>Contact</legend>
+              <div class="field">
+                <label for="galaxy">Galaxie provenienta:</label>
+                <input type="text" id="galaxy" name="galaxy" required>
+              </div>
+              <div class="field">
+                <label for="planet">Planeta provenienta:</label>
+                <input type="text" id="planet" name="planet" required>
+              </div>
+              <div class="field">
+                <label for="address">Adresa:</label>
+                <textarea
+                  id="address"
+                  name="address"
+                  required
+                  rows="5"
+                  cols="31"
+                ></textarea>
+              </div>
+              <div class="field">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+              </div>
+              <div class="field">
+                <label for="phone">Telefon:</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  required
+                  pattern="\d{10}"
+                  title="drop 10 digits here gang :P"
+                >
+                <p>(Format intergalactic)</p>
+              </div>
+              <div class="field">
+                <label for="personal-url">Web URL:</label>
+                <input
+                  type="url"
+                  id="personal-url"
+                  name="personal_url"
+                  required
+                  pattern="https?://.+"
+                  title="yk what to do :3"
+                >
+              </div>
+          </fieldset>
+          <fieldset class="physical-traits">
+            <legend>Semnalmente fizice</legend>
+
+            <div class="field">
+              <label for="height">Înălțime (10-300cm):</label>
+              <input
+                type="number"
+                id="height"
+                name="height"
+                min="10"
+                max="300"
+                required
+              >
+            </div>
+
+            <div class="field">
+              <label for="weight">Greutate (1-500kg):</label>
+              <input
+                type="number"
+                id="weight"
+                name="weight"
+                min="1"
+                max="500"
+                required
+              >
+            </div>
+
+            <div class="field">
+              <label for="limbs">Nr. membre:</label>
+              <input
+                type="number"
+                id="limbs"
+                name="limbs"
+                min="0"
+                required
+              >
+            </div>
+
+            <div class="field">
+              <label for="eyes">Nr. ochi:</label>
+              <input
+                type="number"
+                id="eyes"
+                name="eyes"
+                min="0"
+                required
+              >
+            </div>
+
+            <div class="field">
+              <label for="color">Culoare:</label>
+              <input
+                type="color"
+                id="color"
+                name="color"
+                required
+              >
+            </div>
+          </fieldset>
+          <fieldset class="visit">
+            <legend>Vizita</legend>
+            
+            <div class="field">
+              <label for="arrival-date">Data vizita:</label>
+              <input
+                type="date"
+                id="arrival-date"
+                name="arrival-date"
+                min="2024-05-13"
+                max="2034-05-13"
+                required
+              >
+            </div>
+
+              <div class="field">
+                <label for="arrival-time">Timp estimat sosire:</label>
+                <input
+                  type="time"
+                  id="arrival-time"
+                  name="arrival-time"
+                  required
+                >
+              </div>
+
+                <div class="field">
+                  <label>Sedere:</label>
+                  <input type="radio" id="temporary" name="stay-type" value="temporară" checked required>
+                  <label for="temporary">Temporară</label>
+
+                  <input type="radio" id="permanent" name="stay-type" value="permanentă" required>
+                  <label for="permanent">Permanentă</label>
+                </div>
+
+                  <div class="field">
+                    <label>Scopul vizitei:</label>
+                    <br>
+                    <input type="checkbox" id="invasion" name="visit-purpose" value="invazie" checked required>
+                    <label for="invasion">Invazie</label>
+                    <br>
+                    <input type="checkbox" id="research" name="visit-purpose" value="cercetare">
+                    <label for="research">Cercetare</label>
+                    <br>
+                    <input type="checkbox" id="diplomacy" name="visit-purpose" value="diplomație">
+                    <label for="diplomacy">Diplomație</label>
+                    <br>
+                    <input type="checkbox" id="trade" name="visit-purpose" value="comerț">
+                    <label for="trade">Comerț</label>
+                  </div>
+
+                  <div class="field">
+                    <label for="visit-notes">Comentarii:</label>
+                    <br>
+                    <textarea id="visit-notes" name="visit-notes" rows="4" cols="50"></textarea>
+                  </div>
+          </fieldset>
+          <div class="field">
+            <button type="button" id="submit-btn">send!!</button>
+          </div>
+       </form>
+     </div>
+   </body>
+</html>
