@@ -23,3 +23,11 @@ EINVAL	The value of an argument is wrong
 EFAULT	An address (pointer) is invalid. copyin/copyout return this one for you
 ENOMEM	There’s not enough memory
 EPERM	The operation isn’t allowed
+
+
+ce face SCARG mai exact
+
+
+sys kconcat, suma a doua numere, etc 
+
+
