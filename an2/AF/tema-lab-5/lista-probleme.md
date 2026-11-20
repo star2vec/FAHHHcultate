@@ -1,7 +1,8 @@
+1. Rusuoaica
+2. curcubeu
+3. apm2
+
 TO DO:
-Rusuoaica
-Curcubeu
-Apm2
 Distante
 Camionas
 Trilant
