@@ -15,3 +15,11 @@ make                                   # compile the whole kernel into one file
 cp /bsd /bsd.1                         # back up the current kernel
 make install                           # copy the new kernel over /bsd
 reboot                                 # restart so the new kernel gets loaded
+
+
+
+Code	When to use it
+EINVAL	The value of an argument is wrong
+EFAULT	An address (pointer) is invalid. copyin/copyout return this one for you
+ENOMEM	There’s not enough memory
+EPERM	The operation isn’t allowed
