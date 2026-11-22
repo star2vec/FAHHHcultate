@@ -1,9 +1,9 @@
 1. Rusuoaica
 2. curcubeu
 3. apm2
+4. distante
 
 TO DO:
-Distante
 Camionas
 Trilant
 Dmin
