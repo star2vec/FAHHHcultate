@@ -4,9 +4,10 @@
 4. distante
 5. camionas
 
+7. dmin
+
 TO DO:
 Trilant
-Dmin
 Honest paths
 Banuti
 Lanterna
